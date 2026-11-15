@@ -1,0 +1,7 @@
+# Runtime deps for the Streamlit app (what Streamlit Cloud / HF Spaces install).
+# The app only reads pre-built files from ./artifacts, so no ML libraries are needed here.
+streamlit==1.67.0
+pandas==3.0.5
+numpy==2.5.3
+plotly==7.1.0
+pyarrow==26.0.1

@@ -1,0 +1,13 @@
+# Everything needed to rebuild the artifacts, run the notebooks and tests.
+-r requirements.txt
+scikit-learn==1.9.1
+scipy==1.18.1
+umap-learn==0.6.0
+implicit==0.7.3
+mlxtend==0.25.0
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter
+nbconvert
+pytest
