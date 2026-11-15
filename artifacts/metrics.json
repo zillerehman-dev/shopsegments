@@ -1,0 +1,127 @@
+{
+  "split_date": "2011-09-09",
+  "best_params": {
+    "itemcf_neighbours": 20,
+    "als": {
+      "factors": 32,
+      "regularization": 0.05,
+      "alpha": 1,
+      "iterations": 20
+    },
+    "hybrid_w_itemcf": 0.5
+  },
+  "best_model": "Hybrid (ItemCF + ALS)",
+  "test": [
+    {
+      "model": "Popularity",
+      "Precision@10": 0.04719222462203024,
+      "Recall@10": 0.01883746762441931,
+      "HitRate@10": 0.32451403887688984,
+      "NDCG@10": 0.05072518713727649,
+      "users_evaluated": 1852,
+      "Coverage": 0.018361993587875255
+    },
+    {
+      "model": "Item-based CF",
+      "Precision@10": 0.09659827213822894,
+      "Recall@10": 0.050641619095275536,
+      "HitRate@10": 0.48326133909287255,
+      "NDCG@10": 0.10865953987790544,
+      "users_evaluated": 1852,
+      "Coverage": 0.35995336636549113
+    },
+    {
+      "model": "ALS (implicit)",
+      "Precision@10": 0.0968682505399568,
+      "Recall@10": 0.04856796295043862,
+      "HitRate@10": 0.5,
+      "NDCG@10": 0.11145804695066613,
+      "users_evaluated": 1852,
+      "Coverage": 0.16496648207519674
+    },
+    {
+      "model": "Hybrid (ItemCF + ALS)",
+      "Precision@10": 0.10226781857451406,
+      "Recall@10": 0.05333098400978049,
+      "HitRate@10": 0.5102591792656588,
+      "NDCG@10": 0.11596164809102792,
+      "users_evaluated": 1852,
+      "Coverage": 0.22471582628971146
+    }
+  ],
+  "cold_start": {
+    "popularity": {
+      "Precision@10": 0.08170606372045221,
+      "Recall@10": 0.03439986287786126,
+      "HitRate@10": 0.4850976361767729,
+      "NDCG@10": 0.09017616480903165,
+      "users_evaluated": 973,
+      "Coverage": 0.002914602156805596
+    },
+    "random": {
+      "Precision@10": 0.00945529290853032,
+      "Recall@10": 0.0029210922288753984,
+      "HitRate@10": 0.08941418293936279,
+      "NDCG@10": 0.009742554503478575,
+      "users_evaluated": 973
+    }
+  },
+  "by_segment": [
+    {
+      "Segment": "At Risk",
+      "Precision@10": 0.08531317494600432,
+      "Recall@10": 0.052468389617758286,
+      "HitRate@10": 0.46652267818574517,
+      "NDCG@10": 0.09583784997180178,
+      "users_evaluated": 463
+    },
+    {
+      "Segment": "Champions",
+      "Precision@10": 0.11684587813620072,
+      "Recall@10": 0.040261801732092685,
+      "HitRate@10": 0.5448028673835126,
+      "NDCG@10": 0.12888611135891087,
+      "users_evaluated": 279
+    },
+    {
+      "Segment": "Lost",
+      "Precision@10": 0.08333333333333333,
+      "Recall@10": 0.07717468949086596,
+      "HitRate@10": 0.5,
+      "NDCG@10": 0.08850486992481359,
+      "users_evaluated": 24
+    },
+    {
+      "Segment": "Loyal",
+      "Precision@10": 0.12280487804878049,
+      "Recall@10": 0.05522849870710522,
+      "HitRate@10": 0.5682926829268292,
+      "NDCG@10": 0.13772596129005274,
+      "users_evaluated": 820
+    },
+    {
+      "Segment": "New / Promising",
+      "Precision@10": 0.05488721804511279,
+      "Recall@10": 0.06053952564748296,
+      "HitRate@10": 0.37218045112781956,
+      "NDCG@10": 0.0728173591070097,
+      "users_evaluated": 266
+    }
+  ],
+  "clean_report": {
+    "raw_rows": 541909,
+    "after_missing_customer": 406829,
+    "after_cancellations": 397924,
+    "after_non_positive": 397884,
+    "after_non_product_codes": 396337,
+    "after_duplicates": 391150
+  },
+  "n_customers": 4334,
+  "n_products": 3659,
+  "n_invoices": 18402,
+  "date_range": [
+    "2010-12-01",
+    "2011-12-09"
+  ],
+  "silhouette_k5": 0.3156691057521751
+}

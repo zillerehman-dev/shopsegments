@@ -1,0 +1,102 @@
+{
+  "Champions":{
+    "customers":288,
+    "avg_spend":15165.0825347222,
+    "median_spend":6684.285,
+    "avg_orders":22.3333333333,
+    "avg_recency_days":9.375,
+    "avg_order_value":889.9421781424,
+    "revenue":4367543.7700000005,
+    "share_customers":0.0664513152,
+    "share_revenue":0.4998775298,
+    "top_products":[
+      "JUMBO BAG RED RETROSPOT",
+      "PACK OF 72 RETROSPOT CAKE CASES",
+      "PARTY BUNTING",
+      "REGENCY CAKESTAND 3 TIER",
+      "JUMBO BAG VINTAGE DOILY"
+    ],
+    "action":"Reward them: VIP \/ loyalty perks, early access to new ranges, ask for reviews and referrals. Don't waste discounts here.",
+    "description":"Bought recently, buy often and spend the most."
+  },
+  "Loyal":{
+    "customers":948,
+    "avg_spend":2385.1087869198,
+    "median_spend":1955.365,
+    "avg_orders":6.2478902954,
+    "avg_recency_days":19.7542194093,
+    "avg_order_value":414.6113019527,
+    "revenue":2261083.1299999999,
+    "share_customers":0.2187355791,
+    "share_revenue":0.2587872519,
+    "top_products":[
+      "REGENCY CAKESTAND 3 TIER",
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "JUMBO BAG RED RETROSPOT",
+      "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "PACK OF 72 RETROSPOT CAKE CASES"
+    ],
+    "action":"Upsell and cross-sell with 'also bought' bundles, tiered loyalty points, free-shipping thresholds just above their usual basket.",
+    "description":"Regular, recent buyers with solid spend \u2014 the next Champions."
+  },
+  "New \/ Promising":{
+    "customers":816,
+    "avg_spend":416.868627451,
+    "median_spend":364.085,
+    "avg_orders":1.7450980392,
+    "avg_recency_days":23.2389705882,
+    "avg_order_value":263.6586251167,
+    "revenue":340164.8,
+    "share_customers":0.1882787263,
+    "share_revenue":0.0389328073,
+    "top_products":[
+      "REX CASH+CARRY JUMBO SHOPPER",
+      "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "RABBIT NIGHT LIGHT",
+      "ASSORTED COLOUR BIRD ORNAMENT",
+      "BAKING SET 9 PIECE RETROSPOT"
+    ],
+    "action":"Onboarding flow: welcome series, best-seller recommendations, a time-limited second-order incentive to build the habit.",
+    "description":"Bought recently but only once or twice, small baskets so far."
+  },
+  "At Risk":{
+    "customers":1052,
+    "avg_spend":1371.9584505703,
+    "median_spend":963.52,
+    "avg_orders":3.0066539924,
+    "avg_recency_days":105.3174904943,
+    "avg_order_value":609.7149512905,
+    "revenue":1443300.29,
+    "share_customers":0.2427318874,
+    "share_revenue":0.1651897317,
+    "top_products":[
+      "REGENCY CAKESTAND 3 TIER",
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "PARTY BUNTING",
+      "SET OF 3 CAKE TINS PANTRY DESIGN",
+      "JAM MAKING SET WITH JARS"
+    ],
+    "action":"Win-back campaign now: personalised 'we miss you' email with their favourite categories and a moderate discount. Highest ROI for reactivation spend.",
+    "description":"Used to buy fairly regularly but haven't been back for a couple of months."
+  },
+  "Lost":{
+    "customers":1230,
+    "avg_spend":264.3379268293,
+    "median_spend":236.03,
+    "avg_orders":1.1869918699,
+    "avg_recency_days":202.0536585366,
+    "avg_order_value":239.6604092141,
+    "revenue":325135.65,
+    "share_customers":0.2838024919,
+    "share_revenue":0.0372126793,
+    "top_products":[
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "REGENCY CAKESTAND 3 TIER",
+      "PARTY BUNTING",
+      "ASSORTED COLOUR BIRD ORNAMENT",
+      "REX CASH+CARRY JUMBO SHOPPER"
+    ],
+    "action":"Low-cost channels only: occasional newsletter or big seasonal sale. Don't spend paid-media budget here.",
+    "description":"One-off, low-spend buyers who haven't purchased in ~6+ months."
+  }
+}
