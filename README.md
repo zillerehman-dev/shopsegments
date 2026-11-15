@@ -45,7 +45,7 @@ raw CSV ─► clean ─► RFM table ─► log1p + StandardScaler ─► K-Mea
                                                 └─► also-bought table · FP-Growth basket rules · segment movement
 ```
 
-### 1 · EDA — 10 insights ([notebook 01](notebooks/shopsegments_model.ipynb))
+### 1 · EDA — 10 insights ([notebook, sections 1-4](notebooks/shopsegments_model.ipynb))
 
 | # | Insight |
 |---|---|
@@ -60,7 +60,7 @@ raw CSV ─► clean ─► RFM table ─► log1p + StandardScaler ─► K-Mea
 | 9 | Long tail: 10% of products make 61% of revenue |
 | 10 | New-customer acquisition halved mid-2011, then recovered for Christmas |
 
-### 2 · Segmentation ([notebook 02](notebooks/shopsegments_model.ipynb))
+### 2 · Segmentation ([notebook, section 5](notebooks/shopsegments_model.ipynb))
 
 RFM = **R**ecency (days since last order), **F**requency (# orders), **M**onetary (total spend). Raw F and M have
 skew > 10, so features are `log1p` → `StandardScaler` before clustering.
@@ -89,7 +89,7 @@ blob + noise).
 Names are assigned automatically from each cluster's medians, and agree with classic RFM quintile scores
 (Champions ≈ 5/5/5, Lost ≈ 1.6/1.7/1.6).
 
-### 3 · Recommender ([notebook 03](notebooks/shopsegments_model.ipynb))
+### 3 · Recommender ([notebook, sections 6-7](notebooks/shopsegments_model.ipynb))
 
 **Leak-free protocol**
 * **Temporal hold-out:** train on orders before **2011-09-09**, test on the next 3 months.
