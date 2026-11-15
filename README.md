@@ -4,7 +4,8 @@ Online stores send the same promotions to everyone and waste money. **ShopSegmen
 behaviour (RFM + K-Means) and recommends the right products to each one (item-based CF + ALS), in a Streamlit
 dashboard a marketing team can use without any ML background.
 
-**🔗 Live demo:** https://shopsegments-hwybxm6sydy2hh37e9gzrd.streamlit.app/ · **🎥 Demo video:** `<add Loom/YouTube link>`
+**🔗 Live demo:** https://shopsegments-hwybxm6sydy2hh37e9gzrd.streamlit.app/ ·
+**🎥 Demo video:** https://www.loom.com/share/d617c7265bfc48989efffe0716747820
 
 ![Overview](reports/screenshots/01_overview.png)
 
