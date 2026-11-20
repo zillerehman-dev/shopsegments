@@ -10,3 +10,7 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# notebook run outputs
+notebooks/shopsegments_outputs/
+notebooks/*.zip
