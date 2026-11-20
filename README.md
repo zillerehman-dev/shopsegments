@@ -168,7 +168,7 @@ shopsegments/
 ## How to run
 
 ```bash
-git clone https://github.com/<you>/shopsegments.git && cd shopsegments
+git clone https://github.com/zillerehman-dev/shopsegments.git && cd shopsegments
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
 # just the app (artifacts are already in the repo)
